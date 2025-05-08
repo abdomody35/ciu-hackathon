@@ -5,5 +5,18 @@
     "use_gamma_correction": true,
     "gamma_value": 0.8,
     "face_detection_model": "hog",
-    "save_intermediate_images": true
-}
+    "save_intermediate_images": true,
+    "recognition_tolerance": 0.6,
+    "database": {
+      "host": "127.0.0.1",
+      "dbname": "snapattend",
+      "user": "mhmd",
+      "password": "1234",
+      "port": 5432
+    },
+    "logging": {
+      "level": "INFO",
+      "file": "attendance.log",
+      "console": true
+    }
+  }

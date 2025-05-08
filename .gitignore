@@ -3,3 +3,5 @@
 .env*
 
 __pycache__
+
+src/snap_attend/attendance.log

@@ -18,11 +18,11 @@ class DatabaseConnection:
 
         try:
             self.connection = connect(
-                dbname=os.getenv("DB_NAME"),
-                user=os.getenv("DB_USER"),
-                password=os.getenv("DB_PASSWORD"),
-                host=os.getenv("DB_HOST"),
-                port=os.getenv("DB_PORT"),
+                dbname=os.getenv("snapattend"),
+                user=os.getenv("mhmd"),
+                password=os.getenv("1234"),
+                host=os.getenv("127.0.0.1"),
+                port=os.getenv("5432"),
             )
             self.cursor = self.connection.cursor(cursor_factory=RealDictCursor)
             print("Connected to database")
