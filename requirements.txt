@@ -1,3 +1,14 @@
+# Face detection & recognition
+dlib>=19.24.0
+face_recognition>=1.3.0
+face_recognition_models>=0.3.0
+
+# OpenCV for image I/O & drawing (headless if no GUI)
+opencv-python-headless>=4.7.0.72
+
+# Utilities
+numpy>=1.24.0
+
 psycopg2-binary
 python-dotenv
 bcrypt
