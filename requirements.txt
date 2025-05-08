@@ -12,3 +12,9 @@ numpy>=1.24.0
 psycopg2-binary
 python-dotenv
 bcrypt
+uvicorn
+fastapi
+typing
+jwt
+pydantic[email]
+python-multipart
