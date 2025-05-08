@@ -1,9 +1,9 @@
 {
-    "input_image": "hall.jpg",
-    "output_image": "detected_hall.jpg",
-    "use_histogram_equalization": true,
-    "use_gamma_correction": true,
-    "gamma_value": 0.8,
-    "face_detection_model": "hog",
-    "save_intermediate_images": true
+  "input_image": "pictures/hall.jpg",
+  "output_image": "pictures/detected_hall.jpg",
+  "use_histogram_equalization": true,
+  "use_gamma_correction": true,
+  "gamma_value": 0.8,
+  "face_detection_model": "hog",
+  "save_intermediate_images": true
 }
